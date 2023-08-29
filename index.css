@@ -19,6 +19,7 @@ img {
     margin: auto;
     width: 300px;
     height: 200px;
+    cursor: pointer;
 }
 .list {
     list-style-type: disc;
@@ -26,7 +27,11 @@ img {
 .image {
     display: inline;
     margin: 40px;
+    cursor: pointer;
 }
 body {
-    border: dotted;
+    background-image: url(images/cy\ moon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
 }
