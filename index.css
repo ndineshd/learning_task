@@ -2,14 +2,16 @@ h1 {
     text-align: center;
     margin-top: 0;
     text-decoration: underline;
+    text-decoration-color: white;
 }
 blockquote {
     width: 1200px;
-    margin-left: 150px;
+    margin: auto;
     font-size: 18px;
 }
 a {
     color: green;
+    font-weight: bold;
 }
 a:active {
     color: red;
@@ -28,10 +30,19 @@ img {
     display: inline;
     margin: 40px;
     cursor: pointer;
+    margin-left: 110px;
 }
 body {
-    background-image: url(images/cy\ moon.jpg);
+    background: url("images/cy\ moon.jpg") no-repeat fixed top;
     background-size: cover;
-    background-attachment: fixed;
-    color: black;
+    border: double;
+    border-color: white;
+    border-width: 10px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+strong {
+    text-decoration: underline;
 }
