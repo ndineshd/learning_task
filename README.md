@@ -2,7 +2,7 @@
 demo for practicing
 
 ## update
-where added images
+where added image files
 ## update
 where added html file
 ## update
