@@ -2,12 +2,7 @@ h1 {
     text-align: center;
     margin-top: 0;
     text-decoration: underline;
-    text-decoration-color: white;
-}
-blockquote {
-    width: 1200px;
-    margin: auto;
-    font-size: 18px;
+    text-decoration-color: white    ;
 }
 a {
     color: green;
@@ -28,9 +23,8 @@ img {
 }
 .image {
     display: inline;
-    margin: 40px;
+    margin: auto;
     cursor: pointer;
-    margin-left: 110px;
 }
 body {
     background: url("images/cy\ moon.jpg") no-repeat fixed top;
@@ -45,4 +39,46 @@ body {
 }
 strong {
     text-decoration: underline;
+}
+i {
+    font-size: 25px;
+    margin: 0;
+}
+div {
+    margin: auto;
+    width: 1300px;
+    font-size: 18px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+}
+table, td, th {
+    border: 1px solid;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-bottom: 1.5em;
+}
+td, th {
+    padding: 10px;
+}
+caption {
+    font-size: 22px;
+    text-align: left;
+    text-decoration: underline;
+}
+tr:nth-child(even) {
+    background-color: rgba(203, 203, 203, 0.818);
+}
+tr:nth-child(odd) {
+    background-color: rgb(149, 149, 149);
+}
+tr:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.tabledev {
+    overflow-x: auto;
 }
